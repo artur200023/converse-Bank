@@ -1,0 +1,101 @@
+.show_depPopup {
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.dep_popup h2 {
+    padding: 0 10px;
+}
+
+.dep_popup {
+    margin-left: -40px;
+    text-align: left;
+}
+
+.dep_link {
+    padding: 0 10px;
+}
+
+.show_depPopup {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0 0 10px #333;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 930px;
+    left: 27%;
+    text-align: left;
+    border: 1px solid black;
+    height: auto;
+    padding: 10px;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    z-index: 1;
+}
+
+.show_depPopup ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.dep_category {
+    display: flex;
+    /* padding: 0 7px; */
+    /* gap: 72px; */
+    font-family: sans-serif;
+    border-bottom: 1px solid gray;
+    padding: 0 28px;
+    gap: 86px;
+}
+
+.dep_category p {
+    margin-right: 50px;
+}
+
+.dep_info ul {
+    font-size: 18px;
+    font-family: 'montserrat_regular';
+}
+
+.dep_info {
+    margin-right: 109px;
+    padding: 0 0px;
+}
+
+.close_depPopoup {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.link_dep {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 160px;
+    border-radius: 20px;
+    background: #E5F2F9;
+}
+
+.download {
+    color: #007DC3;
+}
+
+.dep_link {
+    color: #007DC3;
+    padding: 3px;
+}

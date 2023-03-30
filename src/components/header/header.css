@@ -1,0 +1,243 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1140px;
+
+}
+
+body {
+    margin: 3px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main_slider {
+    overflow: hidden;
+
+
+}
+
+.cardBlock_slider {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: montserrat_medium;
+}
+
+
+.bg-salmon {
+    overflow: hidden;
+    position: relative;
+}
+
+.bg-salmon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: #f2f2f291;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.change {
+    overflow: hidden;
+    position: relative;
+}
+
+.change::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: #f2f2f291;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.links nav ul {
+    display: flex;
+    gap: 15px;
+
+}
+
+.links_btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.links_btn button {
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 10px;
+    gap: 10px;
+    font-size: 14px;
+}
+
+
+.customer—btn {
+    background-color: #F78E1E;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all.3s;
+}
+
+
+.customer—btn:hover {
+    background-color: #fff;
+    color: #F78E1E;
+}
+
+
+.banking_btn {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #007DC3;
+    background-color: #fff;
+    border: 1px solid #007DC3;
+    cursor: pointer;
+    transition: all.3s;
+}
+
+.banking_btn:hover {
+    background-color: #007DC3;
+    color: #F2F2F2;
+}
+
+
+
+.nav_links {
+    background: #F2F2F2;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    color: #007DC3;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+.dollarSign {
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+
+}
+
+
+.location {
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+}
+
+.search {
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+}
+
+
+.globe {
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+}
+
+
+.converse {
+    color: #007DC3;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+.bank {
+    color: #F78E1E;
+    font-size: 20px;
+}
+
+.about_convers {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 15px 0;
+    background-color: #FFFFFF;
+    ;
+}
+
+.converse_links {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    margin-left: 30px;
+}
+
+
+.converse_links button {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    color: #007DC3;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    background-color: #E5F2F9;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.converse_links button:hover {
+    color: #fff;
+    background-color: #007DC3;
+}
+
+.asd {
+    border: 1px solid black;
+}

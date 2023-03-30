@@ -1,0 +1,42 @@
+.popup_lang {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.select_lang {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: white;
+    box-shadow: 0 0 10px #333;
+    width: 50px;
+    max-width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    left: 77%;
+    top: 130px;
+    text-align: center;
+    height: auto;
+    padding: 10px 30px;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: -70px;
+    z-index: 1;
+}
+
+
+
+.select_lang span:hover {
+    color: #f78e1e;
+}
+
+/* .active-buuton{
+    color: red;
+} */
+
+
+

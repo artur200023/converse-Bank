@@ -1,0 +1,82 @@
+.departments {
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.622);
+    width: 450px;
+}
+
+.dep_amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+}
+
+.dep_amount p {
+    font-size: 15px;
+}
+
+.dep_icons {
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #F5F7F9;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.inp_amount {
+    width: 450px;
+}
+
+.amount_inps {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.money {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    bottom: -30px;
+}
+
+
+.offered {
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+.active-button {
+    border-radius: 5px;
+    color: #007DC3;
+    border: 1px solid #007DC3;
+    padding: 2px;
+}
+
+.deposit_calc{
+    padding: 20px;
+}
+
+.amount_inps{
+    position: relative;
+}
+
+.data_span{
+    left: 10px;
+    line-height: 1.5em;
+    pointer-events: none;
+    position: absolute;
+    top: 6px;
+}
+
+.hidden_span{
+    visibility: hidden;
+}

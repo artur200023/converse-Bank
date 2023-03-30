@@ -1,0 +1,113 @@
+.conv_footer {
+    display: flex;
+    background-color: #007DC3;
+    justify-content: space-between;
+    z-index: 1;
+    /* margin-left: -75px; */
+    padding: 0 40px;
+    gap: 70px;
+}
+
+.footer {
+    z-index: 1;
+}
+
+
+
+.conv_footer nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    gap: 20px;
+
+}
+
+.conv_footer a {
+    color: white;
+}
+
+.logo {
+    color: #fff;
+    background-color: #008bd5;
+    border: 1px solid gray;
+    width: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.subscribe {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 29%;
+    z-index: 1;
+}
+
+.subscribe li {
+    color: #fff;
+    font-family: montserrat_regular;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.disp_ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.foot_img {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.foot_app {
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+
+
+.foot_goog {
+    height: 60px;
+    width: 150px;
+}
+
+.sub_inp {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #006CA8;
+    padding: 5px 0;
+    color: white;
+}
+
+.icon_right {
+    padding: 7.5px;
+    background-color: #F78E1E;
+    width: 15px;
+    border-radius: 9px;
+    position: absolute;
+    right: 105px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+
+
+.sub {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.foot_icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+    color: #fff;
+}

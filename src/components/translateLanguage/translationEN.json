@@ -1,0 +1,28 @@
+{
+    "header": {
+        "links": [
+            "Individuals",
+            "Business",
+            "Investors"
+        ],
+        "buttons": [
+            "Become a customer",
+            "Online banking",
+            "Discount"
+        ],
+        "aboutLinks": [
+            "Credits",
+            "Deposits",
+            "Cards",
+            "Accounts",
+            "Transmissions",
+            "Lockers",
+            "Investments",
+            "Other services"
+        ]
+    }, 
+     "home":{
+        "text":["The site is being updated.","Will be available soon","You can now use our old website"],
+        "buttons":["Main page","To the old site"]
+    }
+}

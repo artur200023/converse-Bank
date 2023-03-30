@@ -1,0 +1,140 @@
+.month_year ul {
+    display: flex;
+    gap: 15px;
+    text-align: left;
+    width: 450px;
+    padding: 2px;
+}
+
+.month_year ul li {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-left: 0;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 13px;
+    background-color: #EFF3F6;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+ 
+}
+
+
+
+.two_year {
+    display: flex;
+    padding: 2px;
+    width: 450px;
+    gap: 30px;
+
+
+}
+
+.two_year ul li {
+    display: flex;
+    padding: 5px 15px;
+    background-color: #EFF3F6;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.two_year ul {
+    padding: 2px;
+}
+
+.check_inps {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+input[type='checkbox'] {
+    visibility: hidden;
+    display: none;
+}
+
+.check {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #D9D9D9;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease 0.5s;
+}
+
+
+.check::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(2px);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.check_inps p {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+input:checked+.check::before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+
+}
+
+input:checked+.check {
+    background-color: #2196F3;
+}
+
+input:focus+.check {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+
+.active-button {
+    border-radius: 5px;
+    color: #007DC3;
+    border: 1px solid #007DC3;
+    padding: 2px;
+}
+
+.isactive-button {
+    border-radius: 5px;
+    color: #007DC3;
+    border: 1px solid #007DC3;
+}

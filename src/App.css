@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'montserrat_regular';
+    src: url('../public/font/Montserrat-Regular/Montserrat-Regular.eot');
+    src: url('../public/font/Montserrat-Regular/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../public/font/Montserrat-Regular/Montserrat-Regular.woff') format('woff'),
+        url('../public/font/Montserrat-Regular/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'montserrat_medium';
+    src: url('../public/font/Montserrat-Medium/Montserrat-Medium.eot');
+    src: url('../public/font/Montserrat-Medium/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../public/font/Montserrat-Medium/Montserrat-Medium.woff') format('woff'),
+        url('../public/font/Montserrat-Medium/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+    font-family: 'montserrat_semi_bold';
+    src: url('../public/font/Montserrat-SemiBold/Montserrat-SemiBold.eot');
+    src: url('../public/font/Montserrat-SemiBold/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../public/font/Montserrat-SemiBold/Montserrat-SemiBold.woff') format('woff'),
+        url('../public/font/Montserrat-SemiBold/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
 }

@@ -1,0 +1,55 @@
+.contribution {
+    margin-top: 70px;
+}
+
+
+.contribution h2 {
+    text-align: center;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+
+.calc_blocks {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    width: 550px;
+    /* padding: 0 8px; */
+    border-radius: 20px;
+    background-color: #F5F7F9;
+}
+
+.calc_blocks span {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    width: 160px;
+    height: auto;
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.deposit {
+    background-color: white;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #007DC3;
+    color: #007DC3;
+}
+
+
+.active-button {
+    color: #007DC3;
+    border: 1px solid #007DC3;
+    background-color: white;
+    padding: 2px;
+}

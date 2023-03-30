@@ -1,0 +1,127 @@
+.custom_popup {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+}
+.custm_popup{
+    position: relative;
+    z-index: 1;
+}
+.popup_custm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    box-shadow: 0 0 10px #333;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    text-align: left;
+    border: 1px solid black;
+    height: auto;
+    padding: 30px;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    z-index: 1;
+
+}
+
+.popup_custm p {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.popup_custm input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.popup_custm h2 {
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+
+}
+
+.btn_close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-family: 'Montserrat arm';
+    cursor: pointer;
+}
+
+.popup_custm button {
+    background-color: #F78E1E;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all.3s;
+    padding: 16px 48px;
+    border-radius: 10px;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.popup_custm button:hover {
+    background-color: #e77700;
+}
+
+
+
+
+.pop_inp[type="text"] {
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.pop_inp[type="text"]:focus::placeholder {
+    transform: translateY(-1rem);
+    transition: all 0.3s;
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.error{
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+
+.conv{
+   color: #007DC3 ; 
+}

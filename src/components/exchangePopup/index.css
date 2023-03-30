@@ -1,0 +1,170 @@
+.change_popup {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: white;
+    box-shadow: 0 0 10px #333;
+    width: 450px;
+    max-width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    left: 43.5%;
+    top: 10px;
+    text-align: left;
+    height: auto;
+    padding: 10px;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: -70px;
+    z-index: 1;
+}
+
+.change_info ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.change_info {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.close_popup {
+    position: absolute;
+    color: black;
+    right: 7px;
+    top: 7px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all .3s;
+}
+
+.close_popup:hover {
+    color: #f78e1e;
+}
+
+.popup h2 {
+    text-align: left;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 30px;
+}
+
+.popup li {
+    display: flex;
+    align-items: center;
+}
+
+.up {
+    color: #00CC39;
+    ;
+}
+
+.down {
+    color: #FF5252;
+    ;
+}
+
+.gray {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+
+.date {
+    position: absolute;
+    bottom: -25px;
+    right: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.valute {
+    display: flex;
+    flex-direction: column;
+}
+
+.buy_change {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sale_change {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.tab_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.199);
+    cursor: pointer;
+    width: auto;
+    padding: 0 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+.bay_sell {
+    width: 100%;
+}
+
+.active-btn {
+    position: relative;
+    color: #007DC3;
+}
+
+.active-btn::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #007DC3;
+    bottom: -1px;
+    left: 0;
+}
+
+.currency {
+    width: 100%;
+}
+
+.currency td {
+    padding: 10px;
+    /* border-radius: 20px; */
+}
+
+.currency_link {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.btn_hover {
+    color: black;
+    transition: all .3s;
+}
+
+.btn_hover:hover {
+    color: #f78e1e;
+}

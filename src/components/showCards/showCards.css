@@ -1,0 +1,32 @@
+.cards_img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.slider_block {
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F7F9;
+    ;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+    height: 210px;
+}
+
+.card {
+    margin: 0 -10px;
+}
+
+.cards p {
+    text-align: left;
+}
